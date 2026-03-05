@@ -49,6 +49,12 @@ bash docker-setup.sh
    - **openclaw-gateway** — 网关 + Web UI（端口 18789）
    - **openclaw-cli** — 命令行交互
 
+> **关于 docker compose**：OpenClaw 有多个容器（gateway + cli），用 `docker compose` 统一管理，不是 `docker start/stop`。常用命令：
+> - `docker compose up -d` — 启动所有服务
+> - `docker compose down` — 停止并移除所有服务
+> - `docker compose ps` — 查看服务状态
+> - `docker compose logs <服务名> --tail 20` — 查看日志
+
 配置目录挂载：
 - `~/.openclaw/` — 配置、记忆、API keys
 - `~/openclaw/workspace/` — agent 工作区（文件沙箱）
