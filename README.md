@@ -1,5 +1,7 @@
 # OpenClaw Docker 部署指南
 
+> **人话讲解版**：[【OpenClaw】Docker@WSL 部署实战：从零到能聊天，踩完所有坑](https://github.com/lmxxf/ai-theorys-study/blob/main/wechat/112.md)
+
 ## 环境
 
 - WSL2 Ubuntu
